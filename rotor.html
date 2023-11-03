@@ -1,10 +1,29 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <script src="https://cdn.jsdelivr.net/npm/pursuit-rotor-task/src/PursuitRotorTask.min.js"></script>
-  </head>
-
-  <body>
-    <pursuit-rotor-task></pursuit-rotor-task>
-  </body>
+<head>
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #f7f7f7; /* Example background color */
+    }
+    #canvas-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    canvas {
+      border: 1px solid #000000;
+    }
+  </style>
+</head>
+<body>
+  <div id="canvas-container">
+    <canvas id="container" width="1000" height="800"></canvas>
+  </div>
+  <script src="./hand_eye.js"></script>
+</body>
 </html>

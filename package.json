@@ -10,7 +10,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.15",
+    "typescript": "^5.2.2"
   },
   "dependencies": {
     "pursuit-rotor-task": "^1.1.0",
